@@ -16,9 +16,9 @@ public:
     {
         int a, b, c;
 
-        a = n / 100;        // Hundreds digit
-        b = (n / 10) % 10;  // Tens digit
-        c = n % 10;         // Units digit
+        a = n / 100;        
+        b = (n / 10) % 10;  
+        c = n % 10;         
 
         sum = a + b + c;
 
